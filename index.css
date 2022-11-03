@@ -1,0 +1,37 @@
+#navbarwrapper{
+    height: 60px;
+    padding: 0px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    padding-left: 50px;
+    overflow: hidden;
+}
+
+#navbarwrapper a{
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration:solid;
+    font-size: 20px;
+}
+
+#navbarwrapper a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+.linediv{
+    height: 50px;
+    width: 2px;
+    background-color: rgb(107, 107, 107);
+    border-radius: 20px;
+    align-self: center;
+}
+
+body{
+    margin: 0px;
+}
+
+/*https://stackoverflow.com/questions/23476732/set-javascript-global-variables-across-multiple-pages*/
